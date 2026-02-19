@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Stranger Things</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="fondo-fijo-estrellas"></div>
+
+    <header>
+        
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="temporada1.html">T1</a>
+            <a href="temporada2.html">T2</a>
+            <a href="temporada3.html">T3</a>
+            <a href="temporada4.html">T4</a>
+            <a href="villanos.html">Villanos</a>
+            <a href="contacto.html" class="enlace-activo">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="seccion-portada">
+            <div class="seccion-portada-contenido">
+                <h2 class="titulo-estilo-st">CONTACTO</h2>
+                <p class="subtitulo">¿QUIERES UNIRTE AL HELLFIRE CLUB?</p>
+            </div>
+        </div>
+
+        <div class="caja-seccion-contacto">
+            <form action="gracias.html" class="formulario-st">
+                
+                <div class="grupo-entrada">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Mike Wheeler" required>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@hawkins.com" required>
+                </div>
+
+                <div class="grupo-entrada">
+                    <p class="label-text">¿Tu temporada favorita?</p>
+                    <div class="grupo-radio">
+                        <label><input type="radio" name="temp" value="1"> T1</label>
+                        <label><input type="radio" name="temp" value="2"> T2</label>
+                        <label><input type="radio" name="temp" value="3"> T3</label>
+                        <label><input type="radio" name="temp" value="4"> T4</label>
+                    </div>
+                </div>
+
+                <div class="grupo-entrada grupo-casilla">
+                    <label>
+                        <input type="checkbox" name="newsletter"> Quiero recibir noticias del Upside Down
+                    </label>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+
+                <button type="submit" class="boton1">ENVIAR MENSAJE</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Alexandru Stan & Yasmin Boutakrabt - 2ºSMR - Fin 07/01/2026</p>
+    </footer>
+
+</body>
+</html>
